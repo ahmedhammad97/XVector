@@ -84,7 +84,7 @@ class XVector{
         }
 
         bool empty(){
-            return currentIndex==0?true:false;
+            return currentIndex==0;
         }
 
 };

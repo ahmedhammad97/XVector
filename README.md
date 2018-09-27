@@ -37,6 +37,6 @@ for(int k=0;k<25;k++){
 
 <br>
 
-However, it is usually significantly slower when it comes to only inserting at the end or accessing the data, because of the frequent pointer referencing, as XVector uses two pointer references -instead of one for regular dynamic arrays-, to access any data.
+However, it is usually significantly slower when it comes to accessing the data, because of the frequent pointer referencing, as XVector uses two pointer references -instead of one for regular dynamic arrays-, to access any data.
 
 And fortunately this turns out to be a very good illustration of how frequent pointer referencing can lead to a very bad performance in a RAM model of computation.
